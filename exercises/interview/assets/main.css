@@ -1,0 +1,33 @@
+body  {
+    background-color: powderblue;
+}
+
+h1 {
+    font-family: Georgia;
+}
+
+p {
+    font-family: Georgia;
+}
+
+.outline{
+    border: 2px solid white;
+}
+
+
+.question-container {
+    color: blue;
+    background: beige;
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 24px;
+  }
+
+.answer{
+    padding: 50px;
+    color: olive;
+    font-family: Georgia;
+    font-size: 36px;
+}
