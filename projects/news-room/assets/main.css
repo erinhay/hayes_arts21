@@ -1,107 +1,309 @@
+body {
+  background-color:white;
+}
+
 a {
+    position:relative;
     color: black;
     text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 38px;
+    z-index: 5;
 }
 
 a::selection {
     color: white;
 }
 
-h1 {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 38px;
+a:hover {
+  background-color: white;
 }
 
-p {
-    position: relative;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 38px;
-    z-index: 2;
+.text-container {
+  width:fit-content;
+  height:fit-content;
 }
 
-.info::selection {
-    color: white;
+.enter-container {
+  height:100vh;
+  width:100vw;
+  text-align: center;
 }
 
-.text {
-    text-align: justify;
-    text-justify: inter-word;
+.enter-text {
+  position:relative;
+  color:white !important;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 38px;
+  font-weight: 600;
+  text-transform: uppercase;
+  top:45vh;
 }
 
+.enter-text:hover {
+    background-color: black;
+}
+
+.enter-text::selection {
+  color: black;
+}
+
+.background {
+  position:fixed;
+  width:100vw;
+  height:100vh;
+  top:0;
+  left:0;
+  font-size:0;
+  font-family:'Courier New', Courier, monospace;
+  z-index:5;
+  display:none;
+}
+
+.foreground {
+  position:fixed;
+  width:100vw;
+  height:100vh;
+  top:0;
+  left:0;
+  font-size:0;
+  font-family:'Courier New', Courier, monospace;
+  z-index: 1;
+}
+
+.white {
+  color:white !important;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size:41px !important;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+ /* PAGE 1 */
 .blackhole-one {
-    position:fixed;
-    left: 50vw;
-    top: 50vh;
-    margin-top: -25px;
-    margin-left: -25px;
-    height: 50px;
-    width: 50px;
-    background-color: black;
-    border-radius: 50%;
-    z-index: 3;
-  }
+  position:fixed;
+  left: 50vw;
+  top: 50vh;
+  margin-top: -5px;
+  margin-left: -5px;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 2;
+}
 
+.blackhole-one:hover + .background {
+  background-color: black;
+  color:white;
+  font-size:38px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.blackhole-one:hover {
+  opacity:0;
+}
+
+ /* PAGE 2 */
 .blackhole-two {
-    position:fixed;
-    left: 50vw;
-    top: 50vh;
-    margin-top: -50px;
-    margin-left: -50px;
-    height: 100px;
-    width: 100px;
-    background-color: black;
-    border-radius: 50%;
-    z-index: 1;
-  }
+  position:fixed;
+  left: 50vw;
+  top: 50vh;
+  margin-top: -10px;
+  margin-left: -10px;
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 2;
+}
 
+.blackhole-two:hover + .background {
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.blackhole-two:hover {
+  opacity:0;
+}
+
+ /* PAGE 3 */
 .blackhole-three {
-    position:fixed;
-    left: 50vw;
-    top: 50vh;
-    margin-top: -100px;
-    margin-left: -100px;
-    height: 200px;
-    width: 200px;
-    background-color: black;
-    border-radius: 50%;
-    z-index: 1;
-  }
+  position:fixed;
+  left: 50vw;
+  top: 50vh;
+  margin-top: -20px;
+  margin-left: -20px;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 2;
+}
 
-.blackhole-four {
-    position:fixed;
-    left: 50vw;
-    top: 50vh;
-    margin-top: -200px;
-    margin-left: -200px;
-    height: 400px;
-    width: 400px;
-    background-color: black;
-    border-radius: 50%;
-    z-index: 1;
-  }
+.blackhole-three:hover + .background {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  padding-top:40vh;
+  text-transform: uppercase;
+  text-align: center;
+}
 
-.blackhole-five {
-    position:fixed;
-    left: 50vw;
-    top: 50vh;
-    margin-top: -400px;
-    margin-left: -400px;
-    height: 800px;
-    width: 800px;
-    background-color: black;
-    border-radius: 50%;
-    z-index: 1;
-  }
+.blackhole-three:hover {
+  opacity:0;
+}
 
-  .blackhole-six {
-    position:fixed;
-    left: 50vw;
-    top: 50vh;
-    margin-top: -800px;
-    margin-left: -800px;
-    height: 1600px;
-    width: 1600px;
-    background-color: black;
-    border-radius: 50%;
-    z-index: 1;
-  }
+ /* PAGE 4 */
+ .blackhole-four {
+  position:fixed;
+  left: 50vw;
+  top: 50vh;
+  margin-top: -40px;
+  margin-left: -40px;
+  height: 80px;
+  width: 80px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.blackhole-four:hover + .background {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+  
+.blackhole-four:hover {
+  opacity:0;
+}
+
+ /* PAGE 5 */
+ .blackhole-five {
+  position:fixed;
+  left: 50vw;
+  top: 50vh;
+  margin-top: -80px;
+  margin-left: -80px;
+  height: 160px;
+  width: 160px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.blackhole-five:hover + .background {
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+  
+.blackhole-five:hover {
+  opacity:0;
+}
+
+ /* PAGE 6 */
+.blackhole-six {
+  position:fixed;
+  left: 50vw;
+  top: 50vh;
+  margin-top: -160px;
+  margin-left: -160px;
+  height: 320px;
+  width: 320px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.blackhole-six:hover + .background {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  padding-top:40vh;
+  text-transform: uppercase;
+  text-align: center;
+}
+  
+.blackhole-six:hover {
+  opacity:0;
+}
+
+ /* PAGE 7 */
+ .blackhole-seven {
+  position:fixed;
+  left: 50vw;
+  top: 50vh;
+  margin-top: -320px;
+  margin-left: -320px;
+  height: 640px;
+  width: 640px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.blackhole-seven:hover + .background {
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+  
+.blackhole-seven:hover {
+  opacity:0;
+}
+
+ /* PAGE 8 */
+ .blackhole-eight {
+  position:fixed;
+  left: 50vw;
+  top: 50vh;
+  margin-top: -640px;
+  margin-left: -640px;
+  height: 1280px;
+  width: 1280px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.blackhole-eight:hover + .background {
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+  
+.blackhole-eight:hover {
+  opacity:0;
+}
+
+ /* PAGE 9 */
+ .blackhole-nine {
+  position:fixed;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  z-index: 0;
+}
