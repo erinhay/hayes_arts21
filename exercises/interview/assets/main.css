@@ -1,33 +1,135 @@
 body  {
-    background-color: powderblue;
+    background-color: white;
 }
 
-h1 {
-    font-family: Georgia;
-}
-
-p {
-    font-family: Georgia;
-}
-
-.outline{
-    border: 2px solid white;
-}
-
-
-.question-container {
-    color: blue;
-    background: beige;
-    border: 1px solid blue;
-    margin: 10px;
-    padding: 5px;
-    font-family: monospace;
-    font-size: 24px;
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("OpenSans-Light.ttf");
+    font-weight: normal;
+    font-style: normal;
   }
 
-.answer{
-    padding: 50px;
-    color: olive;
-    font-family: Georgia;
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("OpenSans-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "Poppins";
+    src: url("Poppins-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "Oswald";
+    src: url("Oswald-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "Movement-Direct";
+    src: url("Movement-DirectThin.woff"), url("Movement-DirectThin.woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+h1 {
     font-size: 36px;
+    padding-left:0;
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    float: left !important;
+    width: 50% !important;
+    padding: 10px !important;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.v01-question {
+    font-family: Georgia;
+    padding-left: 25vw;
+    padding-right: 25vw;
+}
+
+.v01-answer {
+    font-family: Georgia;
+    font-size: 24px;
+    padding-left: 30vw;
+    padding-right: 30vw;
+}
+
+.v02-question {
+    font-family: "OpenSans-Light";
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.v02-answer {
+    font-family: "Poppins";
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.v03-question  {
+    font-family: "Oswald";
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.v03-answer {
+    font-family: "Oswald";
+    color: navy;
+    font-size: 24px;
+    text-shadow: 3px 3px 3px #ababab;
+    text-align: right;
+    padding-right: 20px;
+    margin-top:-60px
+}
+
+.v04-question {
+    font-family: "OpenSans-Light", sans-serif;
+    padding-left: 350px;
+    padding-right: 350px;
+    font-size: 18px;
+}
+
+.v04-answer {
+    font-family: "OpenSans-Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 350px;
+    padding-left: 550px;
+    text-align: right;
+}
+
+.v05 {
+    font-family: "Movement-Direct";
+    font-size: 36px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: justify;
+    text-justify: inter-word;
 }
