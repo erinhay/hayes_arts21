@@ -1,0 +1,115 @@
+h1 {
+    font-family: dunbar-text, sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: dunbar-text, sans-serif;
+    font-size: 28px;
+}
+
+h3 {
+    font-family: dunbar-text, sans-serif;
+}
+
+p {
+    font-family: dunbar-text, sans-serif;
+    line-height: 1.8;
+}
+
+a {
+    color: darkred;
+}
+
+.cap {
+    margin-left:65vw !important;
+    margin-right: 10vw !important;
+}
+
+blockquote {
+    font-family: dunbar-text, sans-serif;
+    line-height: 1.8;
+}
+
+ul {
+    font-family: dunbar-text, sans-serif;
+    line-height: 1.8;
+}
+
+.content {
+    margin-left:3vw;
+    margin-top: -670px;
+    padding-top: 20px;
+    margin-right:40vw;
+}
+
+.music {
+    margin-left:3vw;
+    margin-right:40vw;
+}
+
+.neoclassical {
+    margin-left:3vw;
+    margin-top:200px;
+}
+
+.russian {
+    margin-left:3vw;
+}
+
+.serial {
+    margin-left:3vw;
+}
+
+.reception {
+    margin-left:3vw;
+    margin-right:40vw;
+}
+
+.innovation {
+    margin-left:3vw;
+    margin-top:170px;
+    margin-right: 3vw;
+}
+
+.signature {
+    width: 20vw;
+    margin-left: 68vw;
+    margin-top: 560px;
+}
+
+.portrait1 {
+    width:25vw;
+    margin-left: 65vw;
+    margin-top: -500px;
+    padding: 10px;
+    background-color: lightgray;
+    display: block;
+}
+
+.portrait2 {
+    width:25vw;
+    margin-left: 65vw;
+    margin-top: -700px;
+    padding: 10px;
+    background-color: lightgray;
+    display: block;
+}
+
+.portrait3 {
+    width:25vw;
+    margin-left: 65vw;
+    margin-top: -700px;
+    padding: 10px;
+    background-color: lightgray;
+    display: block;
+}
+
+.portrait4 {
+    width:25vw;
+    margin-left: 65vw;
+    margin-top: -650px;
+    padding: 10px;
+    background-color: lightgray;
+    display: block;
+}

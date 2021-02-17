@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Stravinsky-Regular";
+    src: url("./fonts/TRIAL_Stravinsky-Regular.otf");
+}
+
+@font-face {
+    font-family: "Stravinsky-Bold";
+    src: url("./fonts/TRIAL_Stravinsky-Bold.otf");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("./fonts/Roboto-Regular.ttf");
+}
+
+h1 {
+    font-family: "Stravinsky-Regular";
+    font-size:85px;
+    text-align: right !important;
+    color:darkred;
+}
+
+h2 {
+    font-family: "Stravinsky-Regular";
+    font-size:60px;
+    text-align: right !important;
+    color:darkred;
+}
+
+h3 {
+    font-family: "Stravinsky-Regular";
+    font-size:36px;
+    text-align: right !important;
+    color:darkred;
+}
+
+p {
+    font-family: "Roboto-Regular", sans-serif;
+    text-justify: inter-word;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+    padding:2px;
+}
+
+a:hover {
+    background-color:darkred;
+    color:white;
+}
+
+blockquote {
+    font-family: "Stravinsky-Regular";
+    text-justify: inter-word;
+    text-align: justify;
+    font-size:24px;
+}
+
+b {
+    font-family: "Stravinsky-Bold";
+    color:darkred;
+}
+
+ul {
+    font-family: "Roboto-Regular";
+    line-height: 1.8;
+}
+
+audio {
+    margin-left:160px;
+}
+
+.cap {
+    padding-left:2vw;
+    font-family: "Roboto-Regular", sans-serif;
+    text-justify: inter-word;
+    text-align: justify;
+}
+
+.header {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content {
+    margin-left:50vw;
+    width:45vw;
+}
+
+.music {
+    margin-left:50vw;
+    width:45vw;
+    margin-top:-350px;
+}
+
+.innovation {
+    margin-left:50vw;
+    width:45vw;
+    margin-top:-1450px;
+}
+
+.reception {
+    margin-left:50vw;
+    width:45vw;
+    margin-top:-0px;
+}
+
+.neoclassical {
+    margin-top: -550px;
+}
+
+img {
+    background-color: transparent;
+}
+
+.portrait1 {
+    width:45vw;
+    display: inline;
+    margin-left:2vw;
+    margin-top:-525px;
+}
+
+.signature {
+    width: 45vw;
+    position:fixed;
+    margin-left:2vw;
+}
+
+.portrait2 {
+    width:45vw;
+    display: inline;
+    margin-left:2vw;
+    margin-top:-300px;
+}
+
+.portrait3 {
+    width:45vw;
+    display: inline;
+    margin-left:2vw;
+    margin-top: 500px;
+}
+
+.portrait4 {
+    width:45vw;
+    display: inline;
+    margin-left:2vw;
+    margin-top: -1000px;
+}
