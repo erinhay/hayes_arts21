@@ -1,0 +1,79 @@
+body {
+    background-image: url("./calc.png");
+    background-size: 100vw;
+}
+
+img {
+    width: 45px;
+    opacity: 0%;
+    padding-left:20px;
+    padding-top:8px;
+}
+
+img:hover {
+    width: 100px;
+    height:65px;
+    padding-left:0px;
+    padding-top:0px;
+    opacity: 100%;
+}
+
+.zero {
+    margin-left: 630px;
+    margin-top: 575px;
+    width:45px;
+}
+
+.one {
+    margin-left: 630px;
+    margin-top: -85px;
+    width:45px;
+}
+
+.two {
+    width: 45px;
+    margin-left: 675px;
+    margin-top:-50px;
+}
+
+.three {
+    width: 45px;
+    margin-left: 720px;
+    margin-top:-50px;
+}
+
+.four {
+    width: 45px;
+    margin-left: 630px;
+    margin-top:-80px;
+}
+
+.five {
+    width: 45px;
+    margin-left: 675px;
+    margin-top:-50px;
+}
+
+.six {
+    width: 45px;
+    margin-left: 720px;
+    margin-top:-50px;
+}
+
+.seven {
+    width: 45px;
+    margin-left: 630px;
+    margin-top:-88px;
+}
+
+.eight {
+    width: 45px;
+    margin-left: 675px;
+    margin-top:-50px;
+}
+
+.nine {
+    width: 45px;
+    margin-left: 720px;
+    margin-top:-45px;
+}
