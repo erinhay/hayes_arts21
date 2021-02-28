@@ -1,0 +1,118 @@
+@font-face {
+    src: url("./Sprat_Variable.ttf");
+    font-family: sprat;
+}
+
+@font-face {
+    src: url("./TechnaSans-Regular.otf");
+    font-family: TechnaSans;
+    font-weight: regular;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+h1 {
+    font-family: sprat;
+    font-size: 120px;
+    font-weight: regular;
+    color: white;
+    line-height: 0px;
+}
+
+h3 {
+    font-family: sprat;
+    font-size: 40px;
+    font-weight:light;
+    color: white;
+}
+
+p {
+    font-family: TechnaSans;
+    color: white;
+    font-size:40px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    text-align: center;
+    padding-top:50px;
+}
+
+.loc {
+    background-image: url("./wild_rivers1.jpg");
+    background-size:100%;
+    opacity: 0;
+    transition: 4s ease-in-out;
+}
+
+.open {
+    background-image: url("./caamp1.jpg");
+    background-size:100%;
+    opacity: 0;
+    transition: 3s ease-in-out;
+}
+
+.date {
+    background-image: url("./wild_rivers2.jpg");
+    background-size:100%;
+    opacity: 0;
+    transition: 3s ease-in-out;
+}
+
+.sale {
+    background-image: url("./wild_rivers3.jpg");
+    background-size:100%;
+    opacity: 0;
+    transition: 3s ease-in-out;
+}
+
+.column:hover {
+    opacity: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size:90px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size:60px;
+    }
+    h3 {
+        font-size:20px;
+    }
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
