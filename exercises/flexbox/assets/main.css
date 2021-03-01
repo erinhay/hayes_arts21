@@ -60,7 +60,7 @@ p {
     background-image: url("./wild_rivers1.jpg");
     background-size:100%;
     opacity: 0;
-    transition: 4s ease-in-out;
+    transition: 3s ease-in-out;
 }
 
 .open {
