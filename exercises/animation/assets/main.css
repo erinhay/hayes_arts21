@@ -1,0 +1,202 @@
+* {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='80' height='120' viewport='0 0 100 100' style='fill:black;font-size:60px;'><text y='50%'>🕺🏼</text></svg>") 16 0,auto;
+    margin:0;
+}
+
+@font-face {
+    src: url("./Retrotype.ttf");
+    font-family: Retrotype;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color:blue;
+    font-family: Retrotype;
+    font-size:150px;
+    margin:80px;
+    display: flex;
+    justify-content: center;
+    animation: textColor 10s infinite;
+}
+
+.music {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width:10vw;
+    height: 10vw;
+    margin:1vw;
+}
+
+.box:hover {
+    -webkit-transform: rotate(360deg);
+    -webkit-transition: 1s;
+}
+
+.green {
+    background-color: greenyellow;
+    animation: greenColor 8s infinite;
+}
+
+.red {
+    background-color: red;
+    animation: redColor 8s infinite;
+}
+
+.yellow {
+    background-color: yellow;
+    animation: yellowColor 8s infinite;
+}
+
+.blue {
+    background-color: blue;
+    animation: blueColor 8s infinite;
+}
+
+.pink {
+    background-color: hotpink;
+    animation: pinkColor 8s infinite;
+}
+
+
+@keyframes pinkColor {
+    0% {
+      background-color:hotpink;
+    }
+    20% {
+        background-color: yellow;
+    }
+    40% {
+      background-color: greenyellow;
+    }
+    60% {
+        background-color: blue;
+    }
+    80% {
+        background-color:red;
+    }
+    100% {
+        background-color: hotpink;
+      }
+  }
+
+  @keyframes blueColor {
+    0% {
+      background-color:blue;
+    }
+    20% {
+        background-color: red;
+    }
+    40% {
+      background-color: hotpink;
+    }
+    60% {
+        background-color: yellow;
+    }
+    80% {
+        background-color:yellowgreen;
+    }
+    100% {
+        background-color: blue;
+      }
+  }
+
+  @keyframes redColor {
+    0% {
+      background-color:red;
+    }
+    20% {
+        background-color: hotpink;
+    }
+    40% {
+      background-color: yellow;
+    }
+    60% {
+        background-color: yellowgreen;
+    }
+    80% {
+        background-color:blue;
+    }
+    100% {
+        background-color: red;
+      }
+  }
+
+  @keyframes greenColor {
+    0% {
+      background-color:yellowgreen;
+    }
+    20% {
+        background-color: blue;
+    }
+    40% {
+      background-color: red;
+    }
+    60% {
+        background-color: hotpink;
+    }
+    80% {
+        background-color:yellow;
+    }
+    100% {
+        background-color: yellowgreen;
+      }
+  }
+
+  @keyframes yellowColor {
+    0% {
+      background-color:yellow;
+    }
+    20% {
+        background-color: yellowgreen;
+    }
+    40% {
+      background-color: blue;
+    }
+    60% {
+        background-color: red;
+    }
+    80% {
+        background-color:hotpink;
+    }
+    100% {
+        background-color: yellow;
+      }
+  }
+  
+  @keyframes textColor {
+    0% {
+      color:blue;
+      transform: scale(1);
+    }
+    20% {
+        color: red;
+    }
+    40% {
+      color: hotpink;
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    60% {
+        color: yellow;
+    }
+    80% {
+        color:yellowgreen;
+    }
+    100% {
+        color: blue;
+        transform: scale(1);
+      }
+  }
