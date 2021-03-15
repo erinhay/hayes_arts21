@@ -175,6 +175,79 @@ div {
     border-radius: 25px;
 }
 
+/* skincare section */
+
+.skincare {
+    background-color: gold;
+    margin-top:50px;
+}
+
+.skincare p {
+    background-color: white;
+    border-radius: 25px;
+}
+
+.override {
+    display: flex !important;
+    width: 45vw !important;
+    margin:10px !important;
+    border-radius: 25px;
+}
+
+blockquote {
+    background-color: white;
+}
+
+iframe {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* smell messages */
+
+.smell p {
+    background-color: gold;
+    border-radius: 25px;
+}
+
+
+/* texture messages */
+
+.texture {
+    background-color: gold;
+    margin-top:50px;
+}
+
+.texture p {
+    background-color: white;
+    border-radius: 25px;
+}
+
+
+/* lazy messages */
+
+.lazy p {
+    background-color: gold;
+    border-radius: 25px;
+}
+
+.break {
+    height: 40vh;
+}
+
+
+/* skin cancer messages */
+
+.skincancer {
+    background-color: gold;
+    margin-top:50px;
+}
+
+.skincancer p {
+    background-color: white;
+    border-radius: 25px;
+}
 
 
 /* outro messages */
@@ -183,3 +256,6 @@ div {
     background-color: gold;
     border-radius: 25px;
 }
+
+
+/* NEED TO ADD MOBILE ADJUSTMENTS */
