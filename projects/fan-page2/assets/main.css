@@ -1,0 +1,154 @@
+body {
+    margin:0;
+}
+
+*::selection {
+    background-color: white;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 80vh;
+    margin:0;
+    color:gold;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 110px;
+    margin:0;
+    padding: 20px 50px 20px 50px;
+}
+
+h5 {
+    font-family: sans-serif;
+    font-size: 48px;
+    text-align: center;
+    margin: 40px;
+}
+
+h6 {
+    font-family: sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin: 40px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 40px;
+    padding:20px;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+    transition: color 1s;
+    transition-delay: 1s;
+}
+
+a:hover {
+    color:red;
+    transition: color 1s;
+}
+
+a::selection {
+    color:gold;
+}
+
+span {
+    color: gold;
+    background-color: white;
+}
+
+.right {
+    text-align: right;
+    padding-right:20px;
+}
+
+.left {
+    text-align: left;
+}
+
+.youtube {
+    width: 1120px;
+    height: 630px;
+}
+
+.youtube-wrapper {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.spotify {
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left:50px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.col {
+    margin:10px;
+    width: 30vw;
+}
+
+.col2 {
+    margin:10px;
+    width: 60vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.home {
+    height: 110vh;
+    background-image: url("./splash2.png");
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.protect {
+    background-color: gold;
+    margin-top: -40px;
+}
+
+.bayley {
+    margin-left:120px;
+}
+
+#back {
+    width: 50vw;
+}
+
+#arm {
+    width: 30vw;
+}
+
+#feet {
+    width: 30vw;
+}
+
+.scroll {
+	width: 100%;
+	display: flex;
+	margin-bottom: 15px;
+	animation: flexmove 10s infinite;
+	overflow: hidden;
+}
+
+.start1 {
+	animation: bannermove 12s linear infinite;
+}
+
+@keyframes bannermove {
+	0% {margin-left: 0px;}
+	100% {margin-left: -110vw;}
+}
