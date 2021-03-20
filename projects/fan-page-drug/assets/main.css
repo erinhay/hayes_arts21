@@ -18,6 +18,10 @@ h2 {
     padding:20px;
 }
 
+h2:hover {
+    cursor: pointer;
+}
+
 h6 {
     font-size: 24px;
     font-family: sans-serif;
@@ -33,14 +37,26 @@ p {
 a {
     font-family: sans-serif;
     text-decoration: none;
-    color: gold;
-    transition: color 1s;
+    color:black;
+    background-color: gold;
+    transition: background-color 1s;
     transition-delay: 1s;
 }
 
 a:hover {
-    color:red;
-    transition: color 1s;
+    color:black;
+    cursor: alias;
+    background-color:red;
+    transition: background-color 1s;
+}
+
+.override {
+    background-color: white !important;
+}
+
+.override:hover {
+    background-color: white !important;
+    cursor: alias;
 }
 
 img {
@@ -72,10 +88,6 @@ footer {
     margin:10px;
     border:black;
     border-style: solid;
-}
-
-.container:hover .content {
-    display: block;
 }
 
 .content {
@@ -126,6 +138,21 @@ footer {
 
 .col {
     width: 30vw;
+}
+
+/* drug facts home */
+.squeeze {
+    height: 85vh;
+}
+
+.turn {
+    display: flex;
+    justify-content: flex-end;
+    padding-right:50px;
+}
+
+.drug-fact:hover {
+    width: fit-content;
 }
 
 
