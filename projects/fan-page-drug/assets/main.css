@@ -56,7 +56,7 @@ a:hover {
 
 .override:hover {
     background-color: white !important;
-    cursor: alias;
+    cursor: alias !important;
 }
 
 img {
