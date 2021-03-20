@@ -1,0 +1,188 @@
+* {
+    margin:0;
+}
+
+*::selection {
+    background-color: red;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+    padding:20px;
+}
+
+h2 {
+    font-size: 48px;
+    font-family: sans-serif;
+    padding:20px;
+}
+
+h2:hover {
+    cursor: pointer;
+}
+
+h6 {
+    font-size: 24px;
+    font-family: sans-serif;
+    padding:20px;
+}
+
+p {
+    font-size: 36px;
+    font-family: sans-serif;
+    padding:20px;
+}
+
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color:black;
+    background-color: gold;
+    transition: background-color 1s;
+    transition-delay: 1s;
+}
+
+a:hover {
+    color:black;
+    cursor: alias;
+    background-color:red;
+    transition: background-color 1s;
+}
+
+.override {
+    background-color: white !important;
+}
+
+.override:hover {
+    background-color: white !important;
+    cursor: alias;
+}
+
+img {
+    width: 40vw;
+}
+
+video {
+    width: 20vw;
+    margin:10px;
+}
+
+ol {
+    font-family: sans-serif;
+    margin-left:100px;
+    font-size: 110px;
+}
+
+footer {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+/* label structure */
+
+.label {
+    margin:10px;
+    border:black;
+    border-style: solid;
+}
+
+.content {
+    display: none;
+    margin: 10px 30px 10px 30px;
+}
+
+
+/* alignment helpers */
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+
+/* size helpers */
+
+.big {
+    font-size: 90px;
+}
+
+
+/* youtube, twitter alignment */
+
+.youtube {
+    width: 1120px;
+    height: 630px;
+}
+
+.youtube-wrapper {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.col {
+    width: 30vw;
+}
+
+/* drug facts home */
+.squeeze {
+    height: 85vh;
+}
+
+.turn {
+    display: flex;
+    justify-content: flex-end;
+    padding-right:50px;
+}
+
+.drug-fact:hover {
+    width: fit-content;
+}
+
+
+/* scrolling burn images */
+
+#back {
+    width: 50vw;
+}
+
+#arm {
+    width: 30vw;
+}
+
+#feet {
+    width: 30vw;
+}
+
+.scroll {
+	width: 100%;
+	display: flex;
+	margin-bottom: 15px;
+	animation: flexmove 10s infinite;
+	overflow: hidden;
+}
+
+.start1 {
+	animation: bannermove 12s linear infinite;
+}
+
+@keyframes bannermove {
+	0% {margin-left: 0px;}
+	100% {margin-left: -110vw;}
+}
