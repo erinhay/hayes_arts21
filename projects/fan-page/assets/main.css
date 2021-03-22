@@ -59,11 +59,11 @@ a:hover {
 }
 
 .override {
-    background-color: white !important;
+    background-color: #29ABE2 !important;
 }
 
 .override:hover {
-    background-color: white !important;
+    background-color: #29ABE2 !important;
     cursor: alias !important;
 }
 
@@ -162,20 +162,72 @@ footer {
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
-    background-color: white;
+    background-color: #29ABE2;
+    z-index: 2;
+    top:10px;
 }
 
 .drug-fact:hover {
     width: fit-content;
 }
 
-canvas {
-    top:0;
-    left:0;
+.wave {
+    position: absolute;
+    bottom: 0;
     width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: -1;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    background-image: url("./waves.svg");
+}
+
+.wave.wave1 {
+    animation: wavy2 30s linear infinite;
+    animation-delay: 0;
+    z-index: 1;
+}
+
+.wave.wave2 {
+    animation: wavy 45s linear infinite;
+    animation-delay: -5s;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.wave.wave3 {
+    animation: wavy 30s linear infinite;
+    animation-delay: -2s;
+    opacity: 0.7;
+    bottom:5px;
+    z-index: 1;
+}
+
+.wave.wave4 {
+    animation: wavy2 45s linear infinite;
+    animation-delay: 0;
+    opacity: 0.2;
+    bottom: 10px;
+    z-index: 1;
+}
+
+@keyframes wavy
+{
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 4000px;
+    }
+}
+
+@keyframes wavy2
+{
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -4000px;
+    }
 }
 
 /* scrolling burn images */
