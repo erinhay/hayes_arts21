@@ -81,3 +81,51 @@ a:hover {
   margin-right:10%;
   line-height: 1.4;
 }
+
+.point {
+  cursor: pointer;
+}
+
+#hello {
+  display: none;
+}
+
+#help {
+  display: none;
+}
+
+#clock {
+  display: none;
+}
+
+#wiki {
+  display: none;
+}
+
+#animation {
+  display: none;
+}
+
+#hover {
+  display: none;
+}
+
+#flex {
+  display: none;
+}
+
+#news {
+  display: none;
+}
+
+#inter {
+  display: none;
+}
+
+#fan {
+  display: none;
+}
+
+#jQuery {
+  display: none;
+}

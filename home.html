@@ -18,70 +18,143 @@
     <div class="spacer"></div>
 
     <div class="proj-container">
-        <h2>Exercise 1: <a href="./exercises/hello/index.html">Hello World!</a></h2>
+        <h2 class="point" onclick="showFunction('hello');">Exercise 1: Hello World!</h2>
+        <br>
+        <div class="text" id="hello">
+            <p><a href="./exercises/hello/index.html">Prompt and Final GIF</a></p>
+        </div>
     </div>
 
     <br>
 
     <div class="proj-container">
-        <h2>Project 1: <a href= './projects/news-room/index.html'>News Room</a></h2>
+        <h2 class="point" onclick="showFunction('news');">Project 1: News Room</h2>
+        <br>
+        <div class="text" id="news">
+            <p><a href='./projects/news-room/process.html'>Design Process</a></p>
+            <br>
+            <p><a target="_blank" href= './projects/news-room/index.html'>Final Design</a></p>
+        </div>
     </div>
 
     <br>
 
     <div class="proj-container">
-        <h2>Exercise 2: <a href='./exercises/wiki/index.html'>Wiki</a></h2>
+        <h2 class="point" onclick="showFunction('wiki');">Exercise 2: Wiki</h2>
+        <br>
+        <div class="text" id="wiki">
+            <p><a href='./exercises/wiki/process.html'>Design Process</a></p>
+            <br>
+            <p><a target="_blank" href='./exercises/wiki/index.html'>Final Design</a></p>
+        </div>
     </div>
 
     <br>
 
     <div class="proj-container">
-        <h2>Exercise 3: <a href="./exercises/interview/index.html">Interview</a></h2>
+        <h2 class="point" onclick="showFunction('inter');">Exercise 3: Interview</h2>
+        <br>
+        <div class="text" id="inter">
+            <p>Prompt: Write a sample question and answer set. Typeset the set in five distinct ways.</p>
+            <br>
+            <p><a target="_blank" href='./exercises/interview/index.html'>Final Design</a></p>
+        </div>
     </div>
 
     <br>
 
     <div class="proj-container">
-        <h2>Exercise 4: <a href="./exercises/hover/index.html">Hover</a></h2>
+        <h2 class="point" onclick="showFunction('hover');">Exercise 4: Hover</h2>
+        <br>
+        <div class="text" id="hover">
+            <p>Prompt: Create a quick, single page website that illustrates a quality about today. The website should utilize hover states in a meaningful way that helps communicate the day.</p>
+            <br>
+            <p><a target="_blank" href='./exercises/hover/index.html'>Final Design</a></p>
+        </div>
     </div>
 
     <br>
 
     <div class="proj-container">
-        <h2>Exercise 5: <a href="./exercises/flexbox/index.html">Flexbox</a></h2>
+        <h2 class="point" onclick="showFunction('flex');">Exercise 5: Flexbox</h2>
+        <br>
+        <div class="text" id="flex">
+            <p>Prompt: Using Flexbox, create an online poster for a fictional event of your choosing. Your poster should be responsive and change in some way when you resize the browser.</p>
+            <br>
+            <p><a target="_blank" href='./exercises/flexbox/index.html'>Final Design</a></p>
+        </div>
     </div>
 
     <br>
 
     <div class="proj-container">
-        <h2>Exercise 6: <a href="./exercises/animation/index.html">CSS Animations</a></h2>
+        <h2 class="point" onclick="showFunction('animation');">Exercise 6: CSS Animation</h2>
+        <br>
+        <div class="text" id="animation">
+            <p>Prompt: Create an abstract environment or composition using CSS animations.</p>
+            <br>
+            <p><a target="_blank" href='./exercises/animation/index.html'>Final Design</a></p>
+        </div>
     </div>
 
     <br>
 
     <div class="proj-container">
-        <h2>Project 2: <a href= './projects/fan-page/index.html'>Fan Page</a></h2>
+        <h2 class="point" onclick="showFunction('fan');">Project 2: Fan Page</h2>
+        <br>
+        <div class="text" id="fan">
+            <p><a href= './projects/fan-page/process.html'>Design Process</a></p>
+            <br>
+            <p><a href= './projects/fan-page/index.html'>Final Design</a></p>
+        </div>
     </div>
 
     <br>
 
     <div class="proj-container">
-        <h2>Exercise 7: <a href="./exercises/jQuery/index.html">jQuery</a></h2>
+        <h2 class="point" onclick="showFunction('jQuery');">Exercise 7: jQuery</h2>
+        <br>
+        <div class="text" id="jQuery">
+            <p>Prompt: Create a single page website that includes at least one jQuery event.</p>
+            <br>
+            <p><a target="_blank" href='./exercises/jQuery/index.html'>Final Design</a></p>
+        </div>
     </div>
 
     <br>
 
     <div class="proj-container">
-        <h2>Exercise 8: <a href="./exercises/clock/index.html">Clock</a></h2>
+        <h2 class="point" onclick="showFunction('clock');">Exercise 8: Clock</h2>
+        <br>
+        <div class="text" id="clock">
+            <p>Prompt: Using HTML, CSS and JavaScript you will represent the passage of time in some way, e.g. a clock.</p>
+            <br>
+            <p><a target="_blank" href='./exercises/clock/index.html'>Final Design</a></p>
+        </div>
     </div>
 
     <br>
 
     <div class="proj-container">
-        <h2>Project 3: Helpful App</h2>
+        <h2 class="point" onclick="showFunction('help');">Project 3: Helpful App</h2>
+        <br>
+        <div class="text" id="help">
+            <p><a href="./projects/helpful-app/index.html">Design Process and Final Prototype</a></p>
+        </div>
     </div>
 
-    <br>
+    <br><br>
+
+    <script>
+        function showFunction(id) {
+        let x = document.getElementById(id);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+        }
+    </script>
 
 </body>
 </html>
